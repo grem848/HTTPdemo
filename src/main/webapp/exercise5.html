@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Exercise 5</h1>
+        <form name="Request" action="#" method="POST">
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname">
+            <input type="hidden" name="hidden" value="1234567">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <h3>Observations:</h3>
+        <br>
+        GET: 
+        <br>
+        /HTTP/exercise5.html?firstname=Andreas&lastname=Heick&hidden=1234567#
+        <br>
+        url plaintext
+        <br>
+        <br>
+        POST:
+        <br>
+        No longer in url, but shows up as form data in plaintext
+        <br>
+        <h3>Exercises page</h3>
+        <a href="/HTTP/exercises.html">LINK</a>
+    </body>
+</html>
